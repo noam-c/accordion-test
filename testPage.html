@@ -1,18 +1,12 @@
+<!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
+
 		<link href="accordions.css" type="text/css" rel="stylesheet" />
 		<link href="testPage.css" type="text/css" rel="stylesheet" />
-		<script type="text/javascript" src="accordions.js"></script>
-		<script type="text/javascript" src="date.js"></script>
 	</head>
-	<body onload="setTimeout(init, 1);">
-		<script type="text/javascript">
-			function init()
-			{
-				accordions.create('acc1');
-				date.populateElements(document.getElementsByClassName('date-time'));
-			}
-		</script>
+	<body onload="initTestPage();">
 		<div id="acc1" class="main">
 			<div class="header">
 				<a href="#">Section 1</a>
@@ -34,5 +28,9 @@
 			</div>
 			<div class="pane date-time"></div>
 		</div>
+
+		<script type="text/javascript" src="accordions.js"></script>
+		<script type="text/javascript" src="date.js"></script>
+		<script type="text/javascript" src="testPage.js"></script>
 	</body>
 </html>

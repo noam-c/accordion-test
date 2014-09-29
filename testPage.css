@@ -1,3 +1,8 @@
+body
+{
+   line-height: 1.231;
+}
+
 .main
 {
 	width: 200px;
@@ -22,3 +27,11 @@
 	padding: 0 5px;
 }
 	
+.loading
+{
+	background-image: url("ajax-loader.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 1.231em;
+	margin: 1em 0;
+}
