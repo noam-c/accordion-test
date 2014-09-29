@@ -2,10 +2,10 @@ This project is an implementation of jQuery's Accordion widget on a test page wi
 
 A description of the files follows:
 
-* accordions.css - Stylesheet specifically used to enable accordion functionality
-* accordions.js - Accordion object library: exposes functionality to convert a container into an accordion
+* accordion.css - Stylesheet specifically used to enable accordion functionality
+* accordion.js - Accordion object library: exposes functionality to convert a container into an accordion
 * ajax-loader.gif - A loading image for AJAX requests (from http://www.ajaxload.info)
-* date.js - DatePopulator object library: exposes functionality to populate elements with date and time
+* datePopulator.js - DatePopulator object library: exposes functionality to populate elements with date and time
 * date.php - A PHP script that simply provides the full local date and time
 * testPage.html - A test page that displays a single accordion with four sections
 * testPage.css - A stylesheet used for styling the test page accordion
